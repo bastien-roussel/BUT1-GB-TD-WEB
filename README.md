@@ -7,7 +7,7 @@ Vous trouverez ici tout le contenu des exercices HTML vu ensemble en TD.
 ## CORRECTIONS DISPONIBLES
 - [x] Exercice 1
 - [x] Exercice 2
-- [] Exercice 3
+- [x] Exercice 3
 - [] Exercice 4
 - [] Maquette
 
