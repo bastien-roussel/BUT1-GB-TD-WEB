@@ -34,3 +34,16 @@ li{
     color: inherit;
 }
 
+
+/* exo 3 */
+.mon-magnifique-btn{
+    border-radius: 25em;
+    background-color: rgb(146, 251, 146);
+    padding: 2em;
+}
+
+.mon-magnifique-btn:hover{
+    background-color: #323232;
+    color: white;
+}
+
