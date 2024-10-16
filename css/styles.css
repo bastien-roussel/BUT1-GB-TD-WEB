@@ -47,3 +47,27 @@ li{
     color: white;
 }
 
+
+
+/* exo 4 */
+
+.mes-articles{
+    margin: 2em;
+    border: dashed 2px grey;
+    padding: 1.5em;
+}
+
+@font-face {
+    font-family: "Roboto-test";
+    src: url(../assets/fonts/Roboto/Roboto-Black.ttf);
+}
+
+h2, h3{
+    font-family: 'Roboto-test', Arial, Helvetica, sans-serif;
+}
+
+.author{
+    font-style: italic;
+    font-size: 0.7em;
+}
+
