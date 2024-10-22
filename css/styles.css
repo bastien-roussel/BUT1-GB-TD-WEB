@@ -71,3 +71,59 @@ h2, h3{
     font-size: 0.7em;
 }
 
+
+
+/* exo 5 : flex  */
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-div1,
+.flex-div2,
+.flex-div3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
+
+.flex-div1{
+    display: flex;
+    align-items: end;
+}
+
+.flex-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-div3{
+    display: flex;
+    justify-content: end;
+}
+
+
+/* exo bootstrap */
+
+.col-perso-1{
+    background-color: yellow;
+}
+
+.col-perso-2{
+    background-color: grey;
+}
+
+.btn-perso{
+    background-color: yellow;
+    color: black;
+}
+.btn-perso:hover{
+    background-color: grey;
+}
+
