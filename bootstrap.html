@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- <h1>Hello, world!</h1>
 
     <button type="button" class="btn btn-primary">BTN BS</button>
     <button type="button" class="btn btn-primary btn-perso">BTN PERSO</button>
@@ -39,7 +39,98 @@
             Column
           </div>
         </div>
-      </div>
+      </div> -->
+
+
+
+      <!-- EXO FORMULAIRE -->
+      <form>
+
+        <div class="container">
+
+          <div class="row">
+            <div class="mb-3 col-6">
+              <label for="saisie-nom" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="saisie-nom">
+            </div>
+            <div class="mb-3 col-6">
+              <label for="saisie-prenom" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="saisie-prenom">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="mb-3">
+              <label for="saisie-mail" class="form-label">Adresse mail</label>
+              <input type="email" class="form-control" id="saisie-mail" aria-describedby="emailHelp">
+            </div>
+          </div>
+          
+
+          <div class="row">
+            <div class="mb-3 col-4">
+              <label for="saisie-mdp" class="form-label">Mot de passe</label>
+              <input type="password" class="form-control" id="saisie-mdp">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <label for="saisie-msg" class="form-label">Message</label>
+              <textarea class="form-control" id="saisie-msg" rows="3"></textarea>            </div>
+          </div>
+
+
+          <div class="row mb-3">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="saisie-menu" data-bs-toggle="dropdown" aria-expanded="false">
+                Faites un choix
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="saisie-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="row mb-3">
+            <p>Accepter les CGU</p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                  NON
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                OUI
+              </label>
+            </div>
+
+          </div>
+          
+        
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+            </div>
+            <div class="col-3">
+              <button type="submit" class="btn btn-danger w-100">Annuler</button>
+            </div>
+
+            <div class="col-3">
+              <button type="reset" class="btn btn-secondary w-100">RAZ</button>
+            </div>
+
+          </div>
+
+        </div>
+      </form>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
