@@ -13,4 +13,4 @@ Vous trouverez ici tout le contenu des exercices HTML vu ensemble en TD.
 - [] Maquette
 
 ## COMMENT TELECHARGER LE CODE
-![COMMENT TELECHARGER LE CODE](https://github.com/bastien-roussel/BUT1-GA-TD-WEB/blob/main/assets/tuto_dl_code.png)
+![COMMENT TELECHARGER LE CODE](https://github.com/bastien-roussel/BUT1-GB-TD-WEB/blob/main/assets/tuto_dl_code.png)
