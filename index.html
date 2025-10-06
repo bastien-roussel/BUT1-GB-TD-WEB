@@ -105,6 +105,55 @@
      <br><br><br><br> <!--ATTENTION : BR EXCEPTIONNEL MAIS A NE PAS REPRODUIRE-->
 
 
+     <form action="" method="get">
+
+        <div>
+            <label for="form_nom">NOM</label>
+            <input type="text" name="nom" id="form_nom" required>
+            
+            <label for="form_prenom">Prénom</label>
+            <input type="text" name="prenom" id="form_prenom" required>
+        </div>
+
+        <div>
+            <label for="form_mdp">MDP</label>
+            <input type="password" name="motdepasse" id="form_mdp">
+        </div>
+
+        <div>
+            <label for="form_mail">Mail</label>
+            <input type="email" name="mail" id="form_mail">
+        </div>
+
+        <div>
+            <p>Accepter les CGU ?</p>
+            <div>
+                <input type="radio" id="form_oui" name="cgu" value="oui" />
+                <label for="form_oui">Oui</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="form_non" name="cgu" value="non" />
+                <label for="form_non">Non</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="form_txtarea">Msg</label>
+            <textarea name="txtarea" id="form_txtarea" rows="12"></textarea>
+        </div>
+
+        <div>
+            <button type="reset">RAZ</button>
+            <button type="submit">Envoyer</button>
+        </div>
+            
+     </form>
+
+
+
+     <br><br><br><br> <!--ATTENTION : BR EXCEPTIONNEL MAIS A NE PAS REPRODUIRE-->
+
 
      <!-- EXO 3-->
      <footer>
