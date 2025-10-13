@@ -31,3 +31,16 @@ body{
     text-decoration: none;
     color: black;
 }
+
+/* EXO 3 */
+.mon-btn-connexion{
+    border-radius: 30px;
+    background-color: rgb(164, 235, 164);
+    padding: 1.5em;
+}
+
+.mon-btn-connexion:hover{
+    background-color: #696969;
+    color: white;
+    cursor: grab;
+}
