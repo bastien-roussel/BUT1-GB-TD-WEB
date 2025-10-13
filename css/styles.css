@@ -1,0 +1,33 @@
+/* EXO 1 */
+#titre{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    /* EXO 2 */
+    margin: 0;
+}
+
+.mon-header{
+    background-color: #a1a1a1;
+
+    /* EXO 2 */
+    padding: 2em;
+
+}
+
+/* EXO 2 */
+body{
+    margin: 0;
+}
+
+.nav-li{
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+    /* list-style-type: none; */
+}
+
+.lien{
+    text-decoration: none;
+    color: black;
+}
