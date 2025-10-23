@@ -44,3 +44,29 @@ body{
     color: white;
     cursor: grab;
 }
+
+
+/* exo 4 */
+.articles{
+    margin: 1.5em;
+}
+
+article{
+   border: 2px dashed black;
+   margin: 1em;
+   padding: 1em;
+}
+
+h1, h2, h3{
+    font-family: "ROBOTO", Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "ROBOTO" ;
+    src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+.auteur{
+    font-style: italic;
+    font-size: small;
+}
