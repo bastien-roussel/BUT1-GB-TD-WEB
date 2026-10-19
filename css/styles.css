@@ -1,0 +1,10 @@
+/* EXO 1 */
+#mon-super-titre{
+    color: blue; 
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mon-super-header{
+    background-color: #c1c1c1;
+}
