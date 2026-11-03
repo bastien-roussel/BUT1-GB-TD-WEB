@@ -3,8 +3,30 @@
     color: blue; 
     font-weight: bolder;
     text-align: center;
+    margin: 0; /*EXO 2*/
 }
 
 .mon-super-header{
     background-color: #c1c1c1;
+    padding: 30px;  /*EXO 2*/
+}
+
+/* EXO 2 */
+body{
+    margin: 0;
+}
+
+.ma-liste{
+    list-style-type: none;
+}
+
+.mes-items{
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.mes-items a{
+    text-decoration: none;
+    color: black;
 }
