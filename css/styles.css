@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "ROBOTO";
+    src: url("../assets/roboto/Roboto_Condensed-Regular.ttf");
+}
+
 /* EXO 1 */
 #mon-super-titre{
     color: blue; 
@@ -29,4 +34,34 @@ body{
 .mes-items a{
     text-decoration: none;
     color: black;
+}
+
+/* exo 3  */
+.mon-bo-btn{
+    border-radius: 30px;
+    background-color: rgb(123, 255, 123);
+    padding: 2em;
+}
+
+.mon-bo-btn:hover{
+    background-color: #3f3f3f;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* exo 4 */
+.mes-articles{
+    margin: 4em;
+    border: black 5px dashed;
+    padding: 2em;
+}
+
+.auteur{
+    font-size: 75%;
+    font-style: italic;
+}
+
+h2, h3{
+    font-family: 'ROBOTO', Tahoma, sans-serif;
 }
