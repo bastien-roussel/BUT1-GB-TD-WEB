@@ -1,0 +1,13 @@
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+}
+
+.flex-div1,
+.flex-div2,
+.flex-div3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
